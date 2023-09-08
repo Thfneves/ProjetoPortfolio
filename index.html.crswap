@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin-left: 15%;
+            margin-right: 15%
+        }
+
+        .container {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+        }
+
+        #header {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 42px;
+            /* identico ao da aula de ajustes iniciais*/
+            text-decoration: underline;
+            color: black;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu {
+            text-align: right;
+            margin-top: 49px;
+
+        }
+
+        #menu li {
+            display: inline-block;
+            margin-left: 20px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            /* identico ao da aula de listas horizontais */
+            text-align: center;
+            color: black;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #buttonCta {
+            background: #1f7cff;
+            border-radius: 50px;
+            font-family: 'poppins';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+            /* Identico ao da aula de  titulo, botão e imagem*/
+            text-align: center;
+            color: white;
+            padding: 10px 25px 10px 25px;
+        }
+
+
+        #headerCta p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            margin-top: 1000px;
+            /* Identico a aula titulo, botão e imagem */
+
+        }
+
+        #headerCta h1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 82px;
+        }
+
+        #headerImg {
+            margin-left: 42px;
+        }
+
+        #headerImg img {
+
+            width: 100%;
+        }
+
+        .headerlogo {
+            text-align: center;
+
+        }
+
+        #clients {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #headerLogoClientetext {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 24px;
+
+        }
+
+        #h2,
+        .red {
+            font-family: 'Poppins';
+            font-style: bold;
+            font-size: 16px;
+            line-height: 24px;
+            /* identico a aula meus serviços*/
+            text-align: center;
+            color: #f75c4f;
+        }
+
+
+        h1,
+        .black {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 54px;
+            text-align: center;
+            margin-top: 0px;
+            color: black;
+
+        }
+        #textCenter{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            Portfolio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href=""> Meus Serviços</a></li>
+                <li><a href=""> Contato </a></li>
+                <li><a href=""> Portfolio </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headercta">
+            <h1>Olá menu nome é <br>
+                Maria</h1>
+            <p>
+                Sou programadora e gostaria de apresentar meus <br>
+                trabalho para você através deste portfólio.
+            </p>
+            <a id="buttonCta" href="">Meus Serviços</a>
+        </div>
+        <div id="headerImg">
+            <img src="img/Mariafoto.svg" alt="">
+        </div>
+
+    </div>
+    <div class="container" id="clients">
+        <div id="headerLogoClientetext">
+            Alguns dos
+            meus clientes
+        </div>
+        <div class="headerLogo"><img src="img/apple.svg" alt=""></div>
+        <div class="headerLogo"><img src="img/Slack.svg" alt=""></div>
+        <div class="headerLogo"><img src="img/spotify.svg" alt=""></div>
+    </div>
+    <div class="container">
+        <div id="services">
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Meus serviços</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="container">
+            <div class="textCenter">
+          <img src="img/MeusServicos/Consultoria.svg" alt="">
+            </div>
+            <div class="textCenter">
+                <img src="img/MeusServicos/Email.svg">
+            </div>
+            <div class="textCenter">
+                <img src="img/MeusServicos/Criacao.svg">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
